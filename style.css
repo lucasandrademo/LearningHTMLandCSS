@@ -1,5 +1,5 @@
 
-.titulo-principal{
+header{
     padding-left: 20px;
     font-size: 32px;
     font-weight: bold;
@@ -9,7 +9,7 @@
 }
 
 #banner{
-        width: 100%
+        width: 100%;
 }
 
 main{
@@ -17,17 +17,14 @@ main{
     padding: 30px;
 }
 
-h2{
+.titulo-main{
+    text-align: center;
     font-size: 24px;
     font-weight: bold;
     margin: 19.92px 0;
 }
 
-.titulo-centralizado{
-    text-align: center
-}
-
-p{
+.paragrafo-main{
     text-align: center;
     margin: 16px 0;
 }
@@ -43,21 +40,23 @@ em{
 #missao{
     font-size: 20px;
     margin: 20px 0;
+    text-align: center;
 }
 
 em strong{
-    color: #ff0000
-}
-
-h3{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 18.72px;
+    color: #ff0000;
 }
 
 .beneficios{
     background: #FFFFFF;
     padding: 20px;
+}
+
+.titulo-beneficios{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 18.72px;
+    text-align: center;
 }
 
 ul{
